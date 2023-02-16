@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T16:26:38.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vdW9bOtTKi0D9i-eAVXd" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T16:31:07.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XzieUGBwDTTsBiWjaLmG" version="20.8.20" type="github">
   <diagram name="Page-1" id="_bZPbaJvds2nwed7FF_N">
     <mxGraphModel dx="780" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -121,11 +121,11 @@
         <mxCell id="89XUOfNxnymho5QkixXb-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Submit payment&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontColor=#050505;" vertex="1" parent="1">
           <mxGeometry x="267.25" y="200" width="96.12" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="89XUOfNxnymho5QkixXb-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;fontColor=#050505;" vertex="1" parent="1">
-          <mxGeometry x="220" y="240" width="50" height="230" as="geometry" />
+        <mxCell id="89XUOfNxnymho5QkixXb-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;fontColor=#050505;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="50" height="230" as="geometry" />
         </mxCell>
         <mxCell id="89XUOfNxnymho5QkixXb-43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;2 step execution&lt;br&gt;&lt;/b&gt;1. Submit Debit Payment instruction&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Submit payment instr. to INSS&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
-          <mxGeometry y="300.71" width="228" height="99.29" as="geometry" />
+          <mxGeometry y="275.71" width="228" height="99.29" as="geometry" />
         </mxCell>
         <mxCell id="89XUOfNxnymho5QkixXb-44" value="logs" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;fontColor=#050505;" vertex="1" parent="1">
           <mxGeometry x="281.01" y="790" width="60" height="60" as="geometry" />
@@ -134,10 +134,19 @@
           <mxGeometry x="220" y="488.3" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="89XUOfNxnymho5QkixXb-47" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;There&#39;re 2 Queues&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Request Queue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. stores the 1st step message req&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. stores the 2nd step messege req&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Response Queue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;1. stores the 1st step message resp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;2. stores the 2nd step message resp&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
-          <mxGeometry y="440" width="250" height="200" as="geometry" />
+          <mxGeometry y="418.89" width="250" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="89XUOfNxnymho5QkixXb-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Consumes and orchestrates (debit/inss confirm) the messages from the folder&lt;/b&gt;&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
-          <mxGeometry x="500" y="750.7099999999999" width="228" height="99.29" as="geometry" />
+        <mxCell id="89XUOfNxnymho5QkixXb-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Consumes and orchestrates (debit/inss confirm) the messages from the folder&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="779.9999999999999" width="228" height="99.29" as="geometry" />
+        </mxCell>
+        <mxCell id="89XUOfNxnymho5QkixXb-49" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Fowards the messages from the Queue to T24 folder and log the info to DB&amp;nbsp;&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="11" y="651.4199999999998" width="228" height="99.29" as="geometry" />
+        </mxCell>
+        <mxCell id="89XUOfNxnymho5QkixXb-50" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;fontColor=#050505;" vertex="1" parent="1">
+          <mxGeometry x="241" y="641.4200000000001" width="20" height="109.29" as="geometry" />
+        </mxCell>
+        <mxCell id="89XUOfNxnymho5QkixXb-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=12;fontColor=#050505;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="540" y="750.71" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
