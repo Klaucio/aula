@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T09:21:15.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NVmi8iSLDfb6z9ucKf7-" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-17T12:41:18.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="92HmABhvx_1fhQDRwM8K" version="21.0.6" type="github" pages="2">
   <diagram name="Actual Arch" id="_bZPbaJvds2nwed7FF_N">
-    <mxGraphModel dx="1461" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,14 +74,6 @@
         </mxCell>
         <mxCell id="89XUOfNxnymho5QkixXb-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#050505;startArrow=oval;startFill=1;" parent="1" source="89XUOfNxnymho5QkixXb-22" target="89XUOfNxnymho5QkixXb-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DRwAmiL1loIR5BDdhrNY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.228;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="89XUOfNxnymho5QkixXb-44" target="DRwAmiL1loIR5BDdhrNY-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="390" y="790" />
-              <mxPoint x="390" y="556" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="89XUOfNxnymho5QkixXb-22" value="Apollo" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" parent="1" vertex="1">
           <mxGeometry x="282.13" y="620" width="57.75" height="103.12" as="geometry" />
@@ -168,25 +160,16 @@
         <mxCell id="cXFf8FFB9pCLQ662MaEo-6" value="JUE" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" parent="1" vertex="1">
           <mxGeometry x="895.25" y="250" width="28.000000000000004" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DRwAmiL1loIR5BDdhrNY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DRwAmiL1loIR5BDdhrNY-1" target="89XUOfNxnymho5QkixXb-4">
+        <mxCell id="DRwAmiL1loIR5BDdhrNY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="89XUOfNxnymho5QkixXb-27" target="89XUOfNxnymho5QkixXb-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="603" y="544" />
               <mxPoint x="600" y="544" />
               <mxPoint x="600" y="440" />
               <mxPoint x="715" y="440" />
             </Array>
+            <mxPoint x="507.25" y="544" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DRwAmiL1loIR5BDdhrNY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DRwAmiL1loIR5BDdhrNY-1" target="89XUOfNxnymho5QkixXb-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="472" y="570" />
-              <mxPoint x="591" y="570" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DRwAmiL1loIR5BDdhrNY-1" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="437.25" y="520" width="70" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
